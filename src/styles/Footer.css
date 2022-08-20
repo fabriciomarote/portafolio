@@ -1,0 +1,48 @@
+.main-footer {
+    color: black;
+    font-size: medium;
+    text-align: center;
+    padding-top: 3em;
+    position: relative;
+    width: 100%;
+  }
+  
+  .hr {
+    color: brown;
+  }
+  
+  @media (min-width: 1200px) {
+    .col-sm{
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 1199px) and (min-width: 992px) {
+    .img-mp {
+        width: 100px;
+        margin: 15px;
+    }
+    .mainPage-container {
+        top:10%;
+        left: 30%; 
+        width: 400px;
+    }  
+  }
+  
+  @media (max-width: 991px) and (min-width: 768px) {
+    .img-mp {
+        width: 100px;
+        margin: 15px;
+    }
+    .mainPage-container {
+        bottom:15%;
+        left: 25%; 
+        width: 400px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .col-sm{
+      font-size:8px;
+    }
+  }
