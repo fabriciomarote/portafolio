@@ -1,9 +1,34 @@
-.icon {
-    display: grid;
-    
+body {
+    background-color: black;
 }
 
-.icon-fa {
-    width: 100%;
-    height: 100%;
+.box-icons {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icon {
+    display: grid;
+    text-align: center;
+    margin: 25px;
+}
+
+.icon:hover {
+    color: rgb(235, 24, 16);
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width:600px) {
+    .box-icons {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 150px;
+    }
+    .icon {
+        margin: 15px;
+    }
+  
 }
