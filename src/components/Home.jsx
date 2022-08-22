@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { HomeContainer } from '../theme/Changes';
-import NavBar from './NavBar';
+import Footer from '../components/Footer'
 import Themes from '../theme/Themes'
 import '../styles/Home.css';
 
@@ -12,13 +12,16 @@ const Home = () => {
     return (
         <>
             <ThemeProvider theme={Themes[theme]}>
-                <HomeContainer>  
-                    <div className="navbar">
-                            <NavBar theme={theme}/>
+                <HomeContainer>    
+                    <div className='home-container'>
+                        <div className='box-home'>
+                            <span>Hola,</span>
+                            <span>Soy Fabricio.</span>
+                            <span>Desarrollador Front End</span>
+                        </div>
+                        <div className='footer'>
+                            <Footer theme={theme} setTheme={setTheme}/> 
                         </div>   
-                    <div className='container'>
-                        
-                        HOME
                     </div>
                 </HomeContainer>
             </ThemeProvider>

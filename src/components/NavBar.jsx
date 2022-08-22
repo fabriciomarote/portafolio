@@ -28,33 +28,33 @@ const NavBar = () => {
     return (
         <>  
             <ThemeProvider theme={Themes[theme]}>
-            <NavBarContainer> 
-            <div className="navbar-container">
-                <div className="nav">
-                    <input type="checkbox" id="nav-check"/>
-                    <div className="nav-header">
-                        <div className="box-title">  
-                            <a href="/" className='logo'><img src={logo} alt="logo"/></a>
+                <NavBarContainer> 
+                    <div className="navbar-container">
+                        <div className="nav">
+                            <input type="checkbox" id="nav-check"/>
+                            <div className="nav-header">
+                                <div className="box-title">  
+                                    <a href="/" className='logo'><img src={logo} alt="logo"/></a>
+                                </div>
+                            </div>
+                            <div className="nav-btn">
+                                <label for="nav-check">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </label>
+                            </div>
+                            <div className="nav-links">
+                                <a href="/" className="btn-btn" >Inicio</a>
+                                <a href="/about" className="btn-btn" >Sobre mi</a>
+                                <a href="/skills" className="btn-btn" >Skills</a>
+                                <a href="/projects" className="btn-btn">Proyectos</a>
+                                <a href="/contact" className="btn-btn"> Contacto</a>                        
+                                <a className="btn-btn" onClick={() => changeTheme()}>{theme}</a> 
+                            </div>
                         </div>
                     </div>
-                    <div className="nav-btn">
-                        <label for="nav-check">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </label>
-                    </div>
-                    <div className="nav-links">
-                        <a href="/" className="btn-btn" >Inicio</a>
-                        <a href="/about" className="btn-btn" >Sobre mi</a>
-                        <a href="/skills" className="btn-btn" >Skills</a>
-                        <a href="/projects" className="btn-btn">Proyectos</a>
-                        <a href="/contact" className="btn-btn"> Contacto</a>                        
-                        <a className="btn-btn" onClick={() => changeTheme()}>{theme}</a> 
-                    </div>
-                </div>
-            </div>
-            </NavBarContainer>
+                </NavBarContainer>
             </ThemeProvider> 
         </>
     );

@@ -27,7 +27,8 @@
     align-items: center;
     position: sticky;
     color: #ffffff; 
-    font-weight: 600; 
+    font-weight: 600;
+    cursor: pointer;
   }
 
   .btn-btn:hover {
@@ -69,7 +70,6 @@
 
     
   .nav > .nav-links > a:hover {
-    color: rgb(235, 24, 16);
     transform: scale(1.1);
   }
   
