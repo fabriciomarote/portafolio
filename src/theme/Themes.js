@@ -1,7 +1,7 @@
 const LightTheme = {
     text: "#000000",
-    bgc: "#757575",
-    colorHoverButtons: "#757575"
+    bgc: "#E5E5E5",
+    colorHoverButtons: "#444444"
 };
 
 const DarkTheme = {
