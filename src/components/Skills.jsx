@@ -16,39 +16,39 @@ const Skills = () => {
             <div className='skills-container'>
                <div className='box-icons'>
                   <div className='icon'>
-                     <FaHtml5 size={90}/>
+                     <FaHtml5 size={80}/>
                      <p>HTML</p>
                   </div>
                   <div className='icon'>
-                     <FaCss3Alt size={90}/>
+                     <FaCss3Alt size={80}/>
                      <p>CSS</p>
                   </div>
                   <div className='icon'>
-                     <FaJs size={90}/>
+                     <FaJs size={80}/>
                      <p>Javascript</p>
                   </div>
                   <div className='icon'>
-                     <FaReact size={90}/>
+                     <FaReact size={80}/>
                      <p>React</p>
                   </div>
                   <div className='icon'>
-                     <FaBootstrap size={90}/>
+                     <FaBootstrap size={80}/>
                      <p>Bootstrap</p>
                   </div>
                   <div className='icon'>
-                     <FaNode size={90}/>
+                     <FaNode size={80}/>
                      <p>Node JS</p>
                   </div>
                   <div className='icon'>
-                     <DiMongodb size={90}/>
+                     <DiMongodb size={80}/>
                      <p>MongoDB</p>
                   </div>
                   <div className='icon'>
-                     <DiMysql size={90}/>
+                     <DiMysql size={80}/>
                      <p>Mysql</p>
                   </div>
                   <div className='icon'>
-                     <FaGithub size={90}/>
+                     <FaGithub size={80}/>
                      <p>Github</p>
                   </div>
 

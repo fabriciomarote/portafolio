@@ -15,7 +15,8 @@ const Home = () => {
                         <div className='box-home'>
                             <span>Hola,</span>
                             <span>Soy Fabricio.</span>
-                            <span>Desarrollador Front End</span>
+                            <span>Desarrollador</span>
+                            <span>Front End</span>
                         </div>
                         <div className='footer'>
                             <Footer theme={theme} setTheme={setTheme}/> 
