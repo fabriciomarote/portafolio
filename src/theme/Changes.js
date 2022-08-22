@@ -1,6 +1,14 @@
 import styled from 'styled-components';
 
 export const NavBarContainer = styled.div `
+    * {
+        background-color: ${({ theme }) => theme.bgc};
+    }
+    
+    body {
+        background-color: ${({ theme }) => theme.bgc};
+    }
+   
     .nav{
         background-color: ${({ theme }) => theme.bgc};
         color: ${({ theme }) => theme.text};
@@ -19,6 +27,9 @@ export const NavBarContainer = styled.div `
     }
     .nav > .nav-btn > label > span {
       border-top: 3.5px solid  ${({ theme }) => theme.text}; 
+    }
+    .nav > .nav-links {
+        background-color: ${({ theme }) => theme.bgc};
     }
 `;
 

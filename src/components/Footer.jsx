@@ -1,4 +1,4 @@
-import React, { useState }  from 'react'
+import React, { useEffect }  from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { ThemeProvider } from 'styled-components';
 import { FooterContainer } from '../theme/Changes';
@@ -8,6 +8,10 @@ import '../styles/Footer.css';
 const Footer = (props) => {
 
   const { theme, setTheme } = props;
+
+  useEffect(() => {
+  
+  },[theme]);
 
   return (
     <>
