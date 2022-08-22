@@ -3,6 +3,7 @@
   text-align: center;
   position: relative;
   display: grid;
+  color: #FFFFFF;
 } 
 
 .icons-footer {
@@ -15,6 +16,11 @@
 .icon-f {
   margin: 5px;
   cursor: pointer;
+  color: #FFFFFF;
+}
+
+.icon-f:hover {
+  color: #B00000; 
 }
 
 @media (min-width: 1200px) {

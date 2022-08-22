@@ -11,8 +11,6 @@ const Home = () => {
 
     return (
         <>
-            <ThemeProvider theme={Themes[theme]}>
-                <HomeContainer>    
                     <div className='home-container'>
                         <div className='box-home'>
                             <span>Hola,</span>
@@ -23,8 +21,6 @@ const Home = () => {
                             <Footer theme={theme} setTheme={setTheme}/> 
                         </div>   
                     </div>
-                </HomeContainer>
-            </ThemeProvider>
         </>  
     );
   }

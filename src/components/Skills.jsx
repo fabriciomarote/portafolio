@@ -13,8 +13,6 @@ const Skills = () => {
   
     return (
         <>
-            <ThemeProvider theme={Themes[theme]}>
-            <SkillsContainer> 
             <div className='skills-container'>
                <div className='box-icons'>
                   <div className='icon'>
@@ -63,8 +61,6 @@ const Skills = () => {
                     <Footer theme={theme} setTheme={setTheme}/> 
                </div>   
             </div>
-            </SkillsContainer>
-            </ThemeProvider> 
         </>  
     );
   }

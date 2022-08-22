@@ -27,8 +27,6 @@ const NavBar = () => {
 
     return (
         <>  
-            <ThemeProvider theme={Themes[theme]}>
-                <NavBarContainer> 
                     <div className="navbar-container">
                         <div className="nav">
                             <input type="checkbox" id="nav-check"/>
@@ -54,8 +52,7 @@ const NavBar = () => {
                             </div>
                         </div>
                     </div>
-                </NavBarContainer>
-            </ThemeProvider> 
+
         </>
     );
   }

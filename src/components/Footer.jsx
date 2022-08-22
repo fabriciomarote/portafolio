@@ -15,8 +15,7 @@ const Footer = (props) => {
 
   return (
     <>
-      <ThemeProvider theme={Themes[theme]}>
-        <FooterContainer> 
+
           <div className="main-footer">
             <div className="footer-container">
                 <div className="icons-footer">
@@ -28,8 +27,7 @@ const Footer = (props) => {
               </p>
             </div>
           </div>
-        </FooterContainer>
-      </ThemeProvider> 
+        
     </>
   )
 }

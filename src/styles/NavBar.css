@@ -4,6 +4,7 @@
     position: fixed;
     justify-content: left;
     width: 100%;
+    background-color: #000000;
   }
   
   .box-logo {
@@ -26,9 +27,9 @@
     justify-content: center;
     align-items: center;
     position: sticky;
-    color: #ffffff; 
     font-weight: 600;
     cursor: pointer;
+    background-color: #000000;
   }
 
   .btn-btn:hover {
@@ -45,7 +46,7 @@
     align-items: center;
     position: relative;
     padding: 0px;
-    background-color: rgb(107, 107, 107);
+    color: #FFFFFF;
   }
   
   .nav-header {
@@ -61,16 +62,16 @@
   }
   
   .nav > .nav-links > a {
-    
     justify-content: right;
     font-size: 20px;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
+    color: #FFFFFF;
   }
-
     
   .nav > .nav-links > a:hover {
     transform: scale(1.2);
+    color: #B00000; 
   }
   
   .nav > #nav-check {
@@ -78,8 +79,6 @@
   }
 
   @media (min-width: 1200px) {
-    
-  
   }
   
   @media (max-width:600px) {
@@ -100,11 +99,13 @@
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
       border-radius: 5px;
+      background-color: #B00000; 
     }
     .nav > .nav-btn > label > span {
       display: block;
       width: 40px;
       height: 5px;
+      border-top: 3.5px solid #FFFFFF; 
     }
     .nav > .nav-links {
       position: absolute;
@@ -116,6 +117,7 @@
       overflow-y: hidden;
       top: 75px;
       left: 0px;
+      background-color: #000000;
     }
     .nav > .nav-links > a  {
       display: block;
