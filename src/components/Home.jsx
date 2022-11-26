@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import { ThemeProvider } from 'styled-components';
-import { HomeContainer } from '../theme/Changes';
 import Footer from '../components/Footer'
-import Themes from '../theme/Themes'
 import '../styles/Home.css';
 
 const Home = () => {
@@ -11,17 +8,17 @@ const Home = () => {
 
     return (
         <>
-                    <div className='home-container'>
-                        <div className='box-home'>
-                            <span>Hola,</span>
-                            <span>Soy Fabricio.</span>
-                            <span>Desarrollador</span>
-                            <span>Front End</span>
-                        </div>
-                        <div className='footer'>
-                            <Footer theme={theme} setTheme={setTheme}/> 
-                        </div>   
-                    </div>
+            <div className='home-container'>
+                <div className='box-home'>
+                        <span>Hola,</span>
+                        <span>Soy Fabricio.</span>
+                        <span className='span1'>Desarrollador</span>
+                        <span className='span1'>Full Stack</span>
+                </div>
+                <div className='footer'>
+                    <Footer theme={theme} setTheme={setTheme}/> 
+                </div>   
+            </div>
         </>  
     );
   }

@@ -16,44 +16,44 @@ const Skills = () => {
             <div className='skills-container'>
                <div className='box-icons'>
                   <div className='icon'>
-                     <FaHtml5 size={80}/>
+                     <FaHtml5 size={70}/>
                      <p>HTML</p>
                   </div>
                   <div className='icon'>
-                     <FaCss3Alt size={80}/>
+                     <FaCss3Alt size={70}/>
                      <p>CSS</p>
                   </div>
                   <div className='icon'>
-                     <FaJs size={80}/>
+                     <FaJs size={70}/>
                      <p>Javascript</p>
                   </div>
                   <div className='icon'>
-                     <FaReact size={80}/>
+                     <FaReact size={70}/>
                      <p>React</p>
                   </div>
                   <div className='icon'>
-                     <FaBootstrap size={80}/>
+                     <FaBootstrap size={70}/>
                      <p>Bootstrap</p>
                   </div>
                   <div className='icon'>
-                     <FaNode size={80}/>
+                     <FaNode size={70}/>
                      <p>Node JS</p>
                   </div>
                   <div className='icon'>
-                     <DiMongodb size={80}/>
+                     <DiMongodb size={70}/>
                      <p>MongoDB</p>
                   </div>
                   <div className='icon'>
-                     <DiMysql size={80}/>
+                     <DiMysql size={70}/>
                      <p>Mysql</p>
                   </div>
                   <div className='icon'>
-                     <FaGithub size={80}/>
+                     <FaGithub size={70}/>
                      <p>Github</p>
                   </div>
 
                   <div className='icon'>
-                     <FaGitAlt size={90}/>
+                     <FaGitAlt size={70}/>
                      <p>Git</p>
                   </div>
                </div> 
