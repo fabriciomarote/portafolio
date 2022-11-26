@@ -4,12 +4,11 @@ body {
 
 .home-container {
   width:100%;
-  min-height: 90vh;
+  min-height: 80vh;
   display: grid;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0;
   color: #FFFFFF;
 }
 
@@ -19,7 +18,7 @@ body {
 
 .box-home {
   max-height: 100%;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 200;
   font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: grid;
