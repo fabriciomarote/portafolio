@@ -24,7 +24,7 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 150px;
 }
 
@@ -32,11 +32,18 @@ body {
   margin-top: 90px;
 }
 
-@media (max-width: 767px) {
+@media (max-width:600px) {
+  .home-container {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+  }
   .box-home {
     font-size: 60px;
     margin-left: 0px;
-    margin-top: 200px;
+    margin-top: 80px;
     margin-bottom: 100px;
   }
 }

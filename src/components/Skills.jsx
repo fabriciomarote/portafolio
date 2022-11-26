@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-import '../styles/Skills.css';
-import { FaGithub, FaJs, FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaBootstrap, FaNode, FaWhatsapp } from "react-icons/fa";
-import { DiMongodb, DiMysql    } from "react-icons/di";
-import Themes from '../theme/Themes'
+import { FaGithub, FaJs, FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaBootstrap, FaNode } from "react-icons/fa";
+import { DiMongodb, DiMysql } from "react-icons/di"; 
+import { SiSpring } from "react-icons/si";
 import Footer from '../components/Footer'
-import { ThemeProvider } from 'styled-components';
-import { SkillsContainer } from '../theme/Changes';
+import '../styles/Skills.css';
 
 const Skills = () => {
 
@@ -46,6 +44,10 @@ const Skills = () => {
                   <div className='icon'>
                      <DiMysql size={70}/>
                      <p>Mysql</p>
+                  </div>
+                  <div className='icon'>
+                     <SiSpring size={70}/>
+                     <p>Spring Boot</p>
                   </div>
                   <div className='icon'>
                      <FaGithub size={70}/>
