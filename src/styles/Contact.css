@@ -59,14 +59,23 @@
 }
 
 @media (max-width:600px) {
+    .contact-container {
+        width:100%;
+        min-height: 100vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+    }
     .box-form {
         background-color: black;
-        width: 90%;
+        width: 300px;
         height: 400px;
         padding: 20px;
         border-radius: 10px;
+        margin-bottom: 100px;
     }
     .text-contact {
-        font-size: 40px;
+        font-size: 30px;
     }
   }
