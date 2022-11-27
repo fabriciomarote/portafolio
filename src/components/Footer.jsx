@@ -1,17 +1,8 @@
-import React, { useEffect }  from 'react'
+import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { ThemeProvider } from 'styled-components';
-import { FooterContainer } from '../theme/Changes';
-import Themes from '../theme/Themes'
 import '../styles/Footer.css';
 
-const Footer = (props) => {
-
-  const { theme, setTheme } = props;
-
-  useEffect(() => {
-  
-  },[theme]);
+const Footer = () => {
 
   return (
     <>

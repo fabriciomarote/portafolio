@@ -1,25 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import logo1 from '../assets/img/logo-dark.png';
-import Themes from '../theme/Themes'
-import { ThemeProvider } from 'styled-components';
-import { NavBarContainer } from '../theme/Changes';
 import '../styles/NavBar.css';
 
 const NavBar = () => {
-
-    const [theme, setTheme] = useState(localStorage.getItem('theme'));
-
-    const changeTheme = () => {
-        let colour;
-        if (theme === 'light') {
-            setTheme('dark');
-            colour = 'dark';
-        } else {
-            setTheme('light');
-            colour = 'light';
-        }
-        localStorage.setItem('theme', colour);
-    }
 
     return (
         <>  
@@ -40,7 +23,7 @@ const NavBar = () => {
                     </div>
                     <div className="nav-links">
                         <a href="/" className="btn-btn" >Inicio</a>
-                        <a href="/about" className="btn-btn" >Sobre mi</a>
+                        <a href="/about" className="btn-btn" >Sobre mí</a>
                         <a href="/skills" className="btn-btn" >Habilidades</a>
                         <a href="/projects" className="btn-btn">Proyectos</a>
                         <a href="/contact" className="btn-btn"> Contacto</a>                        

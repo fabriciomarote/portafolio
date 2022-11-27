@@ -16,11 +16,11 @@ const Contact = () => {
                 <div className='box-form'>
                     <form className='formModal'>
                         <label>Nombre:</label> 
-                        <input className="form-input" type='text' name="name" value={data.name} placeholder="Email" required  ></input>
+                        <input className="form-input" type='text' name="name" value={data.name} placeholder="Nombre" required  ></input>
                         <label>Email:</label>
                         <input className="form-input" type='text' name="email" value={data.email} placeholder="Email" required></input> 
                         <label>Mensaje:</label>
-                        <input className="form-input" type='text' name="message" value={data.message} placeholder="Mensaje" required></input> 
+                        <input className="form-input" id='message' type='text' name="message" value={data.message} placeholder="Mensaje" required></input> 
                         <button type="submit" className="btn btn-info">Enviar</button>
                     </form>
                 </div>

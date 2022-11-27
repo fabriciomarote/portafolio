@@ -1,23 +1,23 @@
 .contact-container {
-  width:100%;
-  min-height: 80vh;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-  text-align: center;
-  font-family: 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 .text-contact {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .box-form {
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     width: 600px;
     height: 400px;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
     justify-content: center;
 }
@@ -35,20 +35,32 @@
 
 .form-input {
     width: 100%;
-    height: 40px;
+    height: 50px;
     border-radius: 10px;
     text-indent: 10px;
+    border: none;
+}
+
+#message {
+    height: 100px;
+    align-items:inherit;
+}
+
+#message::placeholder {
+    height: 100px;
+    text-align: start;
 }
 
 .btn-info {
     margin-top: 50px;
-    height: 40px;
+    height: 50px;
     border-radius: 5px;
     font-size: 17px;
     font-weight: 700; 
     background-color: #B00000; 
     border-color: #B00000;
     color: #FFFFFF;
+    border: none;
 }
 
 .btn-info:hover {
@@ -80,4 +92,4 @@
     .text-contact {
         font-size: 30px;
     }
-  }
+}

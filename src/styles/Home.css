@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(90deg, rgba(24,23,23,1) 0%, rgba(34,33,33,1) 26%, rgba(28,28,36,1) 66%, rgba(24,24,27,1) 100%);
+  background: linear-gradient(90deg, rgb(14, 13, 13) 0%, rgb(33, 31, 31) 26%, rgb(29, 29, 33) 66%, rgb(13, 13, 14) 100%);
 }
 
 .home-container {
