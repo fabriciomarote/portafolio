@@ -47,11 +47,13 @@
     font-size: 17px;
     font-weight: 700; 
     background-color: #B00000; 
+    border-color: #B00000;
     color: #FFFFFF;
 }
 
 .btn-info:hover {
     background-color:#fff;
+    border-color: #fff;
     color: black;
     font-size: 17px;
     font-weight: 700; 

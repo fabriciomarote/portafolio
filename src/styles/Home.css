@@ -42,9 +42,8 @@ body {
     min-height: 90vh;
   }
   .box-home {
-    width: 80%;
-    font-size: 60px;
-    margin-left: 50px;
+    font-size: 50px;
+    margin-left: 0px;
     margin-top: 150px;
     margin-bottom: 100px;
   }
