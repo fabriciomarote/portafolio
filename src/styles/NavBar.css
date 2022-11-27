@@ -81,6 +81,14 @@
   }
   
   @media (max-width:600px) {
+    .navbar-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      width: 100%;
+      background-color: #000000;
+    }
+
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -131,7 +139,7 @@
       height: 0px;
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: calc(40vh - 40px);
+      height: calc(100vh - 40px);
       overflow-y: hidden;
       overflow-x: hidden;
     }
