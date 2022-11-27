@@ -14,12 +14,12 @@
     width: 70%;
     font-size: 40px;
     font-weight: 600;
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 @media (max-width:600px) {
     .text-box {
-        width: 60%;
+        width: 70%;
         font-size: 17px;
         font-weight: 400;
     }
