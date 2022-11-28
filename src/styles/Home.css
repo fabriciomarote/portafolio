@@ -26,6 +26,7 @@ body {
   align-items: center;
   margin-top: 100px;
   margin-bottom: 150px;
+  background-color: red;
 }
 
 .footer {
@@ -42,7 +43,7 @@ body {
     min-height: 90vh;
   }
   .box-home {
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 0px;
     margin-top: 150px;
     margin-bottom: 100px;
