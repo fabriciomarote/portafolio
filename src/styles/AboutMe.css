@@ -6,6 +6,31 @@
    color: white;
    min-height: 80vh;
    line-height: 50px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-title {
+    margin: 40px;
+    font-size: 25px;
+}
+
+.foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 30px;
+}
+
+.box-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    align-items: center;
+}
+
+.info {
+    color: #B00000; 
 }
 
 .text-box {
@@ -16,7 +41,6 @@
     font-size: 30px;
     font-weight: 600;
     line-height: 40px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .button-cv {

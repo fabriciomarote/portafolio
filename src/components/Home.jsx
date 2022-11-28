@@ -12,7 +12,7 @@ const Home = () => {
                 <div className='box-home'>
                         <span>Hola,</span>
                         <span>Soy Fabricio.</span>
-                        <span className='span1'>Desarrollador</span>
+                        <span className='span1'>Desarrollador Web</span>
                         <span className='span1'>Full Stack</span>
                 </div>
                 <div className='footer'>

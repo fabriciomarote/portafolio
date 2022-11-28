@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaGithub, FaJs, FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaBootstrap, FaNode } from "react-icons/fa";
 import { DiMongodb, DiMysql } from "react-icons/di"; 
-import { SiSpring, SiKotlin } from "react-icons/si";
+import { SiSpring, SiGradle, SiApachemaven} from "react-icons/si";
 import { TbBrandKotlin } from "react-icons/tb";
 import Footer from '../components/Footer'
 import '../styles/Skills.css';
 
 const Skills = () => {
-
-   const [theme, setTheme] = useState(localStorage.getItem('theme'));
   
     return (
         <>
@@ -43,29 +41,36 @@ const Skills = () => {
                      <p>Node JS</p>
                   </div>
                   <div className='icon'>
-                     <DiMongodb size={70}/>
-                     <p>MongoDB</p>
-                  </div>
-                  <div className='icon'>
                      <DiMysql size={70}/>
                      <p>Mysql</p>
+                  </div>
+                  <div className='icon'>
+                     <DiMongodb size={70}/>
+                     <p>MongoDB</p>
                   </div>
                   <div className='icon'>
                      <SiSpring size={70}/>
                      <p>Spring Boot</p>
                   </div>
                   <div className='icon'>
+                     <SiApachemaven size={70}/>
+                     <p>Maven</p>
+                  </div>
+                  <div className='icon'>
+                     <SiGradle size={70}/>
+                     <p>Gradle</p>
+                  </div>
+                  <div className='icon'>
                      <FaGithub size={70}/>
                      <p>Github</p>
                   </div>
-
                   <div className='icon'>
                      <FaGitAlt size={70}/>
                      <p>Git</p>
                   </div>
                </div> 
                <div className='footer'>
-                    <Footer theme={theme} setTheme={setTheme}/> 
+                    <Footer/> 
                </div>   
             </div>
         </>  

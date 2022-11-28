@@ -1,5 +1,5 @@
 import React from 'react';
-import logo1 from '../assets/img/logo-dark.png';
+import logo from '../assets/img/logo-dark.png';
 import '../styles/NavBar.css';
 
 const NavBar = () => {
@@ -11,7 +11,7 @@ const NavBar = () => {
                     <input type="checkbox" id="nav-check"/>
                     <div className="nav-header">
                         <div className="box-title">  
-                            <a href="/" className='logo'><img src={logo1} alt="logo" /></a>
+                            <a href="/" className='logo'><img src={logo} alt="logo" /></a>
                         </div>
                     </div>
                     <div className="nav-btn">
