@@ -82,7 +82,6 @@
         color: #FFFFFF;
     }
     .box-form {
-        background-color: black;
         width: 300px;
         height: 400px;
         padding: 20px;
@@ -92,4 +91,31 @@
     .text-contact {
         font-size: 30px;
     }
+}
+
+@media (max-width:768px) and (orientation: landscape){
+    .contact-container {
+        width:100%;
+        min-height: 100vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        padding: 0px 0px 0px 0px;
+    }
+    .box-form {
+        max-width: 100%;
+        height: 400px;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 100px;
+        margin-left: 0px;
+    }
+    .text-contact {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
+    /* Styles! */
 }
