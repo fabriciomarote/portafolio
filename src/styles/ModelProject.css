@@ -83,7 +83,7 @@
 
 @media (max-width: 767px) {
     .project-container {
-        width: 400px;
+        width: 350px;
     }
     .button-project {
         font-size: 12px;
