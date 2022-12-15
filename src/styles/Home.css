@@ -12,9 +12,10 @@ body {
   color: #FFFFFF;
 }
 
-.span1{
-  color: #B00000; 
+.box-home .span1 {
+  color: #B00000;
 }
+
 
 .box-home {
   max-height: 100%;

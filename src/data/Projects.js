@@ -31,14 +31,6 @@ const projects = [
       text: "Es una Website realizada con React, Javascrpit y CSS.",
     },
     {
-      id: 4,
-      image: "",
-      //link1: "https://github.com/Bluefox182/ultimate-weather-app",
-      //link2: "https://bluefox182-weather-app.vercel.app/",
-      title: "Twitter",
-      text: "Fue desarrollado en el marco de un proyecto de la facultad.",
-    },
-    {
       id: 5,
       image: Rotten,
       //link1: "https://github.com/Bluefox182/ultimate-rick-and-morty",
@@ -65,3 +57,15 @@ const projects = [
   ];
   
   export default projects;
+
+  /* 
+  {
+      id: 4,
+      image: "",
+      //link1: "https://github.com/Bluefox182/ultimate-weather-app",
+      //link2: "https://bluefox182-weather-app.vercel.app/",
+      title: "Twitter",
+      text: "Fue desarrollado en el marco de un proyecto de la facultad.",
+    },
+  
+  */

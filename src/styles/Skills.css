@@ -10,7 +10,7 @@
 
 .box-icons {
     display: grid; 
-    justify-content: center;
+    width: 50vw;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 40px;
@@ -18,15 +18,16 @@
 }
 
 .icon {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 10px;
+    margin: 15px;
 }
 
 .icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     color: #B00000; 
 }
 

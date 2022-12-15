@@ -14,7 +14,7 @@ const Footer = () => {
                   <a href="https://www.linkedin.com/in/fabricio-marote/" className='icon-f'><FaLinkedin size={25}/></a>
                 </div>
               <p className="col-sm">
-                {"Creado por Fabricio Marote |"} &copy;{new Date().getFullYear()} {"todos los derechos reservados."}
+                {"Todos los derechos reservados"} &copy;{new Date().getFullYear()}  {"| Fabricio Marote"}
               </p>
             </div>
           </div>

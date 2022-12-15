@@ -9,8 +9,9 @@
 
 .box-projects {
     display: grid; 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 10px;
 }
 
 @media (min-width: 1200px) {
