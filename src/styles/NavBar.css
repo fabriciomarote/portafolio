@@ -1,4 +1,4 @@
-.navbar-container {
+  .navbar-container {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -81,6 +81,7 @@
 
   .icon-theme {
     margin: 10px;
+    cursor: pointer;
   }
 
   .icon-dark {

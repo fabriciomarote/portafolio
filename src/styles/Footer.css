@@ -1,10 +1,26 @@
 .main-footer {
   font-size: medium;
   text-align: center;
-  position: relative;
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   color: #FFFFFF;
 } 
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.text-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
 .icons-footer {
   display: flex;
@@ -26,11 +42,13 @@
 @media (min-width: 1200px) {
   .col-sm{
     font-size: 15px;
+    width: 100%;
   }
 }
 
 @media (max-width: 767px) {
   .col-sm{
     font-size:10px;
+    width: 100%;
   }
 }
