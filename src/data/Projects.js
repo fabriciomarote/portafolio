@@ -2,7 +2,7 @@ import Pokedex from "../assets/img/pokedex.jpg";
 import PPTLS from "../assets/img/PPTLS.jpg";
 import Horney from "../assets/img/horney.png";
 import Rotten from "../assets/img/rotten.png";
-import Calculadora from "../assets/img/calculadora.png";
+import Calculadora from "../assets/img/calculadora.jpg";
 import Turnero from "../assets/img/turnero.png";
 
 const projects = [

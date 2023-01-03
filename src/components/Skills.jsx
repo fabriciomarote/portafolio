@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaJs, FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaBootstrap, FaNode } from "react-icons/fa";
 import { DiMongodb, DiMysql } from "react-icons/di"; 
 import { SiSpring, SiGradle, SiApachemaven} from "react-icons/si";
+import { BsFillSunFill } from "react-icons/bs";
 import { TbBrandKotlin } from "react-icons/tb";
 import Footer from '../components/Footer'
 import '../styles/Skills.css';
