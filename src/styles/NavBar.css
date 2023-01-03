@@ -57,9 +57,9 @@
     display: flex;
     justify-content: right;
     margin-right: 30px;
-    float: right;
     font-size: 18px;
-    
+    position: relative;
+    display: inline-block;
   }
   
   .nav > .nav-links > a {
@@ -79,6 +79,34 @@
   }
 
   @media (min-width: 1200px) {
+    .nav {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-items: center;
+      position: relative;
+      padding: 0px;
+      color: #FFFFFF;
+    }
+    .nav-header {
+      display: inline;
+    }
+    .nav > .nav-links {
+      display: flex;
+      justify-content: right;
+      margin-right: 30px;
+      float: right;
+      font-size: 18px; 
+    }
+    .nav > .nav-links > a {
+      justify-content: right;
+      font-size: 18px;
+      padding: 13px 10px 13px 10px;
+      text-decoration: none;
+      color: #FFFFFF;
+    }
     #contact {
       background-color: #B00000;
       border-radius: 10px;
@@ -155,6 +183,7 @@
     .nav > .nav-links > a  {
       display: block;
       width: 100%;
+      margin-top: 20px;
     }
     .nav > .nav-links > a:hover {
       transform: scale(1.1);

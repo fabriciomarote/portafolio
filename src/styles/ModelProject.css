@@ -68,6 +68,7 @@
     border: none;
     margin: 5px;
     font-size: 16px;
+    border-radius: 5px;
     background-color: #B00000; 
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
@@ -81,11 +82,18 @@
     color: #B00000; 
 }
 
+.not-link1 {
+    margin-right: -100px;
+}
+
 @media (max-width: 767px) {
     .project-container {
         width: 350px;
     }
     .button-project {
         font-size: 12px;
+    }
+    .not-link1 {
+        margin-right: -70px;
     }
 }

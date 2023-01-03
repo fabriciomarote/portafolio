@@ -38,6 +38,7 @@
     .box-icons {
         grid-template-columns: repeat(2, 1fr);
         margin-top: 100px;
+        margin-left: 25px;
     }
     .icon {
         margin: 15px;

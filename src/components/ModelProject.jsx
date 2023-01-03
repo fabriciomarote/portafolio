@@ -13,7 +13,11 @@ const ModelProject = (props) => {
                 <p className="title">{project.title}</p>
                 <p>{project.text}</p>
                 <div className='box-buttons'>
-                    <a href={project.link1} className='button-project'><FaPager size={23}/>Ver proyecto</a> 
+                    { project.link1 !== "" ? 
+                    <a href={project.link1} className='button-project'><FaPager size={23}/>Ver proyecto</a>
+                    :
+                    <div className="not-link1"/>
+                    }
                     <a href={project.link2} className='button-project'><FaGithub size={23}/>Ver código</a>
                 </div> 
                 </div>
